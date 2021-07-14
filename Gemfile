@@ -5,7 +5,7 @@ gem "rspec"
 gem 'capybara', '~>3.35.3'
 gem 'pry', '>=0'
 gem 'nokogiri', '>=1.3.3'
-gem 'rake', '<11.0'
+gem 'rake', '13.0.3'
 gem 'childprocess', '~>0.5'
 gem 'rubyzip', '~>1.0'
 gem 'websocket', '~>1.0'
