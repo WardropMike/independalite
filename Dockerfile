@@ -35,10 +35,6 @@ RUN rm google-chrome.deb
 # Copy framework and deps to local dir
 ADD . . $APP_HOME
 
-# Install Bundler
-RUN gem install bundler:1.17.2
-RUN bundle install
-
 # Define working directory.
 # RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
@@ -47,6 +43,10 @@ WORKDIR $APP_HOME
 ENV GEM_HOME="$APP_HOME/bin/sh"
 ENV PATH $GEM_HOME/bin/sh:$GEM_HOME/gems/bin:$PATH
 
+# Install Bundler
+RUN gem install bundler:1.17.2
+RUN bundle install
+
 # Unsetting Bundle config
-RUN unset BUNDLE_PATH
-RUN unset BUNDLE_BIN
+# RUN unset BUNDLE_PATH
+# RUN unset BUNDLE_BIN
