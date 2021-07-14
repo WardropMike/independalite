@@ -1,6 +1,6 @@
-require './spec/ui/support_class/browser_testing'
-require './spec/ui/support_class/heroku_helpers'
-require './spec/api/support_class/api_testing'
+require './spec/component_1/support/componet_one_testing'
+require './spec/component_2/support/browser_testing'
+require './spec/component_2/support/the_internet_helpers'
 require 'capybara/rspec'
 require 'httparty'
 
