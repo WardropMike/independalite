@@ -1,4 +1,5 @@
 require './spec/ui/support_class/browser_testing'
+require './spec/ui/support_class/heroku_helpers'
 require './spec/api/support_class/api_testing'
 require 'capybara/rspec'
 require 'httparty'
@@ -7,6 +8,7 @@ RSpec.configure do |config|
   config.include(Capybara::DSL)
   config.include HTTParty
   config.include BrowserTesting
+  config.include HerokuHelpers
   config.include ApiTesting
 end
 
