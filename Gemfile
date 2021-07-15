@@ -17,8 +17,9 @@ gem 'eyes_selenium', '3.18.3'
 # Neede tp disable webdrivers amd capybara-selenium
 # gem 'webdrivers', '~> 3.7', '>=3.7.2'
 # gem 'capybara-selenium', '~>0.0.6'
-gem 'selenium-webdriver', '~> 4.0.0.beta4'
-gem 'webdrivers', '~> 4.0'
+# gem 'selenium-webdriver', '~> 4.0.0.beta4'
+gem 'selenium-webdriver'
+# gem 'webdrivers', '~> 4.0'
 gem 'open-uri', '0.1.0'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
