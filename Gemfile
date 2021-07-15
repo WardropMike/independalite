@@ -1,7 +1,8 @@
 # Gemfile
 source "https://rubygems.org"
 ruby '3.0.1'
-gem "rspec"
+gem 'rspec', '3.10.0'
+gem 'rspec-core'
 gem 'capybara', '~>3.35.3'
 gem 'pry', '>=0'
 gem 'nokogiri', '>=1.3.3'
