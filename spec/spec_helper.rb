@@ -17,7 +17,7 @@ Capybara.register_driver :chrome do |app|
 end
 
 Capybara.register_driver :headless_chrome do |app|
-  capabilities = Selenuim::Webdriver::Remote::Capabilities.chrome(
+  capabilities = Selenium::Webdriver::Remote::Capabilities.chrome(
     chromeOptions: {
       args: %w[headless enable-features=NetworkService,NetworkServiceInProcess]
     }
