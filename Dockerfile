@@ -37,7 +37,7 @@ RUN apt-get update \
 RUN curl -L -o google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome.deb
 RUN sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
-RUN rm google-chrome.deb
+# RUN rm google-chrome.deb
 
 WORKDIR $APP_HOME
 
@@ -46,7 +46,7 @@ RUN bundle install
 
 COPY . .
 
-CMD ["bundle exec rspec --dry-run"]
+CMD ["bundle", "exec", "rspec", "--dry-run", "spec"]
 
 
 # Install headless chrome & selenium
