@@ -37,14 +37,23 @@ RUN apt-get update \
 RUN curl -L -o google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome.deb
 RUN sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
-# RUN rm google-chrome.deb
+RUN rm google-chrome.deb
+
+# Install chromedriver for Selenium
+# RUN curl https://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip -o /usr/local/bin/chromedriver
+# RUN chmod +x /usr/local/bin/chromedriver
+
+
+
 
 WORKDIR $APP_HOME
 
+# COPY /spec/support/chromedriver /usr/local/bundle/bin/
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
+
 
 CMD ["bundle", "exec", "rspec", "--dry-run", "spec"]
 
