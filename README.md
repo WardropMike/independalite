@@ -2,7 +2,9 @@
 
 
 Setup Instructions
-
+  Build the container with:
+  docker build -t independalite .
+  
 
 
 To run tests:
@@ -14,3 +16,6 @@ bundle exec rspec --tag heroku
 How to run and look inside a running container
 
 docker container run -it independalite /bin/bash
+
+To run the docker and the specified tests
+docker container run -it independalite bundle exec rspec -tag the_internet
