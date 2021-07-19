@@ -1,8 +1,5 @@
 FROM ruby:3.0.1
 
-# throw errors if Gemfile has been modified since Gemfile.lock
-# RUN bundle config --global frozen 1
-
 # Update and Install Dependencies
 RUN apt-get update \
   && apt-get install libxi6 \
@@ -39,15 +36,15 @@ RUN dpkg -i google-chrome.deb
 RUN sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
 RUN rm google-chrome.deb
 
-# Install chromedriver for Selenium
-# RUN curl https://chromedriver.storage.googleapis.com/2.31/chromedriver_linux64.zip -o /usr/local/bin/chromedriver
-# RUN chmod +x /usr/local/bin/chromedriver
-# OR
-# Try moving or copying the existing file
-# COPY /spec/support/chromedriver /usr/local/bundle/bin/
-
-
-
+RUN BROWSER_MAJOR=$(google-chrome --version | sed 's/Google Chrome \([0-9]*\).*/\1/g') && \
+    wget https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${BROWSER_MAJOR} -O chrome_version && \
+    wget https://chromedriver.storage.googleapis.com/`cat chrome_version`/chromedriver_linux64.zip && \
+    unzip chromedriver_linux64.zip && \
+    mv chromedriver /usr/local/bin/ && \
+    DRIVER_MAJOR=$(chromedriver --version | sed 's/ChromeDriver \([0-9]*\).*/\1/g') && \
+    echo "chrome version: $BROWSER_MAJOR" && \
+    echo "chromedriver version: $DRIVER_MAJOR" && \
+    if [ $BROWSER_MAJOR != $DRIVER_MAJOR ]; then echo "VERSION MISMATCH"; exit 1; fi
 
 WORKDIR $APP_HOME
 
@@ -57,21 +54,3 @@ RUN bundle install
 COPY . .
 
 CMD ["bundle", "exec", "rspec", "--dry-run", "spec"]
-
-
-# Install headless chrome & selenium
-# get and install openjdk - headless
-# Install selenium
-# Set Command to run server ?To be handled here?
-# CMD ["/usr/local/bin/start-selenium-server.sh"]
-
-# Download and Setup Chrome
-# Set up Chromedriver Environment variables
-# Copy framework and deps to local dir
-# Define working directory
-# Install Bundler
-# Setup Gem paths
-# Unsetting Bundle config
-# Run Tests
-# CMD Override when needed
-# CMD ['bundle', 'exec', 'rspec']
