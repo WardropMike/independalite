@@ -1,10 +1,13 @@
 # independalite
-
+## APP This is a Demo of solutions to testing challenges
+### Challenges:
+## - 1. # of 2000+
+## - 2. 
 
 Setup Instructions
   Build the container with:
   docker build -t independalite .
-  
+
 
 
 To run tests:
