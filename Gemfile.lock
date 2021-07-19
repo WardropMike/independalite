@@ -11,55 +11,15 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    capybara-selenium (0.0.6)
+      capybara
+      selenium-webdriver
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
-    chunky_png (1.3.6)
     coderay (1.1.3)
-    crass (1.0.6)
-    css_parser (1.9.0)
-      addressable
+    date (3.1.0)
     diff-lcs (1.4.4)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
-    eyes_core (3.18.3)
-      chunky_png (= 1.3.6)
-      faraday
-      faraday-cookie_jar
-      faraday_middleware
-      oily_png (~> 1.2)
-      oj
-    eyes_selenium (3.18.3)
-      crass
-      css_parser
-      eyes_core (= 3.18.3)
-      nokogiri
-      selenium-webdriver
-      state_machine
-    faraday (1.5.1)
-      faraday-em_http (~> 1.0)
-      faraday-em_synchrony (~> 1.0)
-      faraday-excon (~> 1.1)
-      faraday-httpclient (~> 1.0.1)
-      faraday-net_http (~> 1.0)
-      faraday-net_http_persistent (~> 1.1)
-      faraday-patron (~> 1.0)
-      multipart-post (>= 1.2, < 3)
-      ruby2_keywords (>= 0.0.4)
-    faraday-cookie_jar (0.0.7)
-      faraday (>= 0.8.0)
-      http-cookie (~> 1.0.0)
-    faraday-em_http (1.0.0)
-    faraday-em_synchrony (1.0.0)
-    faraday-excon (1.1.0)
-    faraday-httpclient (1.0.1)
-    faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.2.0)
-    faraday-patron (1.0.0)
-    faraday_middleware (1.0.0)
-      faraday (~> 1.0)
     ffi (1.15.3)
-    http-cookie (1.0.4)
-      domain_name (~> 0.5)
     httparty (0.18.1)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
@@ -69,13 +29,14 @@ GEM
     mime-types-data (3.2021.0704)
     mini_mime (1.1.0)
     multi_xml (0.6.0)
-    multipart-post (2.1.1)
     nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
-    oily_png (1.2.0)
-      chunky_png (~> 1.3.1)
-    oj (3.12.1)
+    nokogiri (1.11.7-x86_64-linux)
+      racc (~> 1.4)
     open-uri (0.1.0)
+      stringio
+      time
+      uri
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -86,7 +47,6 @@ GEM
       rack (>= 1.0, < 3)
     rake (13.0.3)
     regexp_parser (2.1.1)
-    rexml (3.2.5)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -100,36 +60,41 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
-    ruby2_keywords (0.0.4)
     rubyzip (1.3.0)
-    selenium-webdriver (4.0.0.beta4)
-      childprocess (>= 0.5, < 5.0)
-      rexml (~> 3.2)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    state_machine (1.2.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.7)
+    stringio (3.0.0)
+    time (0.1.0)
+      date
+    uri (0.10.1)
+    webdrivers (3.9.4)
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+      selenium-webdriver (~> 3.0)
     websocket (1.2.9)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   capybara (~> 3.35.3)
+  capybara-selenium (~> 0.0.6)
   childprocess (~> 0.5)
-  eyes_selenium (= 3.18.3)
   httparty (= 0.18.1)
   mime-types (>= 1.16)
   nokogiri (>= 1.3.3)
   open-uri (= 0.1.0)
   pry
   rake (= 13.0.3)
-  rspec
+  rspec (= 3.10.0)
+  rspec-core
   rubyzip (~> 1.0)
-  selenium-webdriver (~> 4.0.0.beta4)
+  selenium-webdriver (~> 3.142.7)
+  webdrivers (~> 3.7, >= 3.7.2)
   websocket (~> 1.0)
   xpath (~> 3.2)
 
@@ -137,4 +102,4 @@ RUBY VERSION
    ruby 3.0.1p64
 
 BUNDLED WITH
-   2.2.21
+   2.2.15

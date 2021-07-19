@@ -15,6 +15,7 @@ RUN apt-get update \
   libx11-xcb1 \
   libxss1 \
   lsb-release \
+  xvfb \
   xdg-utils \
   libxcomposite1 -y \
   libappindicator1 fonts-liberation -y \
@@ -22,9 +23,12 @@ RUN apt-get update \
   libxss1 lsb-release xdg-utils -y \
   libgbm1 -y \
   gconf-service \
+  dpkg \
   curl \
   git \
-  libpq-dev
+  wget \
+  libpq-dev \
+  unzip
 
 # Download and Setup Chrome
 RUN curl -L -o google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -32,21 +36,21 @@ RUN dpkg -i google-chrome.deb
 RUN sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
 RUN rm google-chrome.deb
 
-# Copy framework and deps to local dir
-ADD . . $APP_HOME
+RUN BROWSER_MAJOR=$(google-chrome --version | sed 's/Google Chrome \([0-9]*\).*/\1/g') && \
+    wget https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${BROWSER_MAJOR} -O chrome_version && \
+    wget https://chromedriver.storage.googleapis.com/`cat chrome_version`/chromedriver_linux64.zip && \
+    unzip chromedriver_linux64.zip && \
+    mv chromedriver /usr/local/bin/ && \
+    DRIVER_MAJOR=$(chromedriver --version | sed 's/ChromeDriver \([0-9]*\).*/\1/g') && \
+    echo "chrome version: $BROWSER_MAJOR" && \
+    echo "chromedriver version: $DRIVER_MAJOR" && \
+    if [ $BROWSER_MAJOR != $DRIVER_MAJOR ]; then echo "VERSION MISMATCH"; exit 1; fi
 
-# Install Bundler
-RUN gem install bundler:1.17.2
-RUN bundle install
-
-# Define working directory.
-# RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
-# Setup Gem paths
-ENV GEM_HOME="$APP_HOME/bin/sh"
-ENV PATH $GEM_HOME/bin/sh:$GEM_HOME/gems/bin:$PATH
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
 
-# Unsetting Bundle config
-RUN unset BUNDLE_PATH
-RUN unset BUNDLE_BIN
+COPY . .
+
+CMD ["bundle", "exec", "rspec", "--dry-run", "spec"]

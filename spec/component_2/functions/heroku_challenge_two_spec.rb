@@ -1,4 +1,4 @@
-describe 'As a heroku page, I display a menu', :heroku => true do
+describe 'As a heroku page, I display a menu', :heroku_the_internet => true do
 
   let(:the_internet_page) { "http://the-internet.herokuapp.com" }
   let(:context) { "Context Menu" }
@@ -6,7 +6,7 @@ describe 'As a heroku page, I display a menu', :heroku => true do
   let(:floating_menu) { "Floating Menu" }
   feature 'Browsers vist pages and display elements' do
 
-    context 'user visits the-internet page and clicks on' do
+    context 'user visits the-internet page and clicks on', :the_internet => true do
 
       scenario "a context menu(s)", :context_menu => true do
         visit(the_internet_page)
