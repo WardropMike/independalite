@@ -9,13 +9,16 @@
 * This was designed to run at these places in the code promotion pipeline:
 
 * Services from framework:
-![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png" alt="Services from framework:" align="center"> style="float: left; margin-right: 10px;" />)
+<p align="center">
+  <img src="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png" height="200">
+</p>
 * What a framework does ideal goal:
-![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png" alt="What a framework does ideal goal:" :align="center"> style="float: left; margin-right: 10px;" />)
-
-# Make sure you are running a Ruby dev env on macos. This project utilizes ruby 3.0.1.
+<p align="center">
+  <img src="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png" height="200">
+</p>
 
 # Setup Instructions
+Make sure you are running a Ruby dev env on macos. This project utilizes ruby 3.0.1.
 * Build the container with:
    *   docker build -t independalite .
 * Just run the container:
