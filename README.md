@@ -9,19 +9,20 @@
 # 2. Tests
 ## A. Dropdown
 ### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_spec.rb">Dropdown Test</a>
 ## B. Floating Menu
 ### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Floating Menu</a>
 ## C. Context Menu
 ### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Context Menu</a>
 ## D. API Tests
 ### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_1/functions/check_component_1_spec.rb">API Tests</a>
 # 3. Tags
 # 4. Run Time arguments
-### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+### <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
+
 
 
 
