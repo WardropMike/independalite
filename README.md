@@ -1,41 +1,42 @@
 # independalite
 ## APP This is a Demo of solutions to testing challenges in a ruby test framework
-### Challenges:
-## - 1. # of 2000+
-## - 2. Context Menu
-## - 3. Floating Menu
-## - 4. Dropdown
+ Challenges:
+ - 1. # of 2000+ Tests
+ - 2. Context Menu
+ - 3. Floating Menu
+ - 4. Dropdown
 
 # This was designed to run at these places in the code promotion pipeline:
-## image of pipeline
-##Images
- <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
+Services from framework:
+ ![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
     alt="Markdown Monster icon"
     align="center">
-    style="float: left; margin-right: 10px;" />
- <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png"
+    style="float: left; margin-right: 10px;" />)
+
+What a framework does ideal goal:
+  ![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png"
     alt="Markdown Monster icon"
     align="center">
-    style="float: left; margin-right: 10px;" />
+    style="float: left; margin-right: 10px;" />)
 
-# Links to trello tickets
-# 0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune..
-## <a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
-## <a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
-## <a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
-## <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
-## <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
-## <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
+# Development tickets
+##0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune
+<a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
+<a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
+<a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
+<a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
+<a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
+<a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
 
-#### 1. Dockerized
-#### Link to Trello:
-#### <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Trello Fix and Clean Spec Helper</a>
-#### <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Fix and Cleam up Spec Helper</a>
-#### <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Trello Dockerfile Clean up and Verify</a>
-#### <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Verify Dockerfile</a>
-#### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
-#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
-#### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Re-write Dockerfile</a>
+## 1. Dockerized
+Link to Trello:
+<a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Trello Fix and Clean Spec Helper</a>
+<a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Fix and Cleam up Spec Helper</a>
+<a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Trello Dockerfile Clean up and Verify</a>
+<a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Verify Dockerfile</a>
+<a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+<a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
+<a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Re-write Dockerfile</a>
 #### 2. Tests
 ### A. Dropdown
 #### Link to TrelloL <a href="https://trello.com/c/sOBOhdA9/11-complete-third-challenge-test-dropdown-select">Dropdown test task</a>
