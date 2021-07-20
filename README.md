@@ -9,23 +9,23 @@
 # This was designed to run at these places in the code promotion pipeline:
 ## image of pipeline
 ##Images
-### <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
-###    alt="Markdown Monster icon"
-###    align="center">
-###    style="float: left; margin-right: 10px;" />
-### <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png"
-###    alt="Markdown Monster icon"
-###    align="center">
-###    style="float: left; margin-right: 10px;" />
+ <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
+    alt="Markdown Monster icon"
+    align="center">
+    style="float: left; margin-right: 10px;" />
+ <img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png"
+    alt="Markdown Monster icon"
+    align="center">
+    style="float: left; margin-right: 10px;" />
 
-###Links to trello tickets
-### 0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune..
-### <a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
-### <a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
-### <a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
-### <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
-### <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
-### <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
+# Links to trello tickets
+# 0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune..
+## <a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
+## <a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
+## <a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
+## <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
+## <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
+## <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
 
 #### 1. Dockerized
 #### Link to Trello:
