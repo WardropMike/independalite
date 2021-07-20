@@ -1,12 +1,12 @@
 # independalite
 ## APP This is a Demo of solutions to testing challenges in a ruby test framework
  Challenges:
- - 1. # of 2000+ Tests
- - 2. Context Menu
- - 3. Floating Menu
- - 4. Dropdown
+ 1. Number of 2000+ Tests
+ 2. Context Menu
+ 3. Floating Menu
+ 4. Dropdown
 
-# This was designed to run at these places in the code promotion pipeline:
+### This was designed to run at these places in the code promotion pipeline:
 Services from framework:
  ![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
     alt="Markdown Monster icon"
@@ -57,23 +57,21 @@ Link to Trello:
 ### <a href="https://trello.com/c/0f0sYUkD/12-write-documentation">Write documentation</a>
 # 6. Upcoming updates next steps
 ### <a href="https://trello.com/c/kTai02eE/8-re-write-browser-major-in-dockerfile-works-for-now-break-into-docker-compose-esk-style">Upcoming updates next steps</a>
-#
-#
-## Setup Instructions
-##  Build the container with:
-##   docker build -t independalite .
-##  Just run the container:
-##   docker container run -it independalite
-##  Run the container and drop me at a prompt:
-##   docker container run -it independalite /bin/bash
-#
-# To run tests:
-## docker container run -it independalite bundle exec rspec
-## bundle exec rspec --tag the_internet
-## bundle exec rspec --tag dropdown
-## bundle exec rspec --tag context_menu
-## bundle exec rspec --tag floating_menu
-# How to run and look inside a running container
-# docker container run -it independalite /bin/bash
-# To run the docker and the specified tests
-# docker container run -it independalite bundle exec rspec -tag the_internet
+
+Setup Instructions
+  Build the container with:
+    docker build -t independalite .
+  Just run the container:
+    docker container run -it independalite
+  Run the container and drop me at a prompt:
+    docker container run -it independalite /bin/bash
+  To run tests:
+    docker container run -it independalite bundle exec rspec
+    bundle exec rspec --tag the_internet
+    bundle exec rspec --tag dropdown
+    bundle exec rspec --tag context_menu
+    bundle exec rspec --tag floating_menu
+  How to run and look inside a running container
+    docker container run -it independalite /bin/bash
+  To run the docker and the specified tests
+    docker container run -it independalite bundle exec rspec -tag the_internet
