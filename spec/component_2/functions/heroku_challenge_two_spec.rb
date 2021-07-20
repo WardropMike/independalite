@@ -1,4 +1,4 @@
-describe 'As a heroku page, I display a menu', :heroku_the_internet => true do
+describe 'As a heroku page, I display a menu', :the_internet => true do
 
   let(:the_internet_page) { "http://the-internet.herokuapp.com" }
   let(:context) { "Context Menu" }
@@ -11,12 +11,12 @@ describe 'As a heroku page, I display a menu', :heroku_the_internet => true do
       scenario "a context menu(s)", :context_menu => true do
         visit(the_internet_page)
         click_menu_option(context)
-        # right_click_box
-        # check_context_menu(context_text)
-        # accept_context_menu
+        trigger_context_menu
+        check_context_menu(context_text)
+        accept_context_menu
       end
 
-      scenario "a floating menu item(s)" do
+      scenario "a floating menu item(s)", :floating_menu => true do
         visit(the_internet_page)
         click_menu_option(floating_menu)
         assert_pressence
@@ -25,7 +25,7 @@ describe 'As a heroku page, I display a menu', :heroku_the_internet => true do
       end
 
       after 'tear down' do
-        # close_browser
+        # close_browser, tare down data...
       end
     end
   end

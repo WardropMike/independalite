@@ -1,4 +1,4 @@
-describe 'As a framework I run tests for APIs', :descriptions => true do
+describe 'As a framework I run tests for APIs', :the_internet => true do
   let(:site_url) { "jsonplaceholder.typicode.com/users" }
   # Placeholder for JSON obj for resuest
   # Placeholder for JSON obj for assertion
