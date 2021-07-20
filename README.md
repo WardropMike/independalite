@@ -45,9 +45,9 @@ Make sure you are running a Ruby dev env on macos. This project utilizes ruby 3.
  1. <a href="https://github.com/WardropMike/independalite">Framework Codebase (Git Link)</a>
  2. <a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework Ticket</a>
  3. <a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase Ticket</a>
-4. <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network Ticket</a>
-5. <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase Ticket</a>
-6. <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase Ticket</a>
+ 4. <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network Ticket</a>
+ 5. <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase Ticket</a>
+ 6. <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase Ticket</a>
 
 # Dockerized
 1. <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Trello Fix and Clean Spec Helper Ticket</a>
@@ -63,7 +63,7 @@ Make sure you are running a Ruby dev env on macos. This project utilizes ruby 3.
  * a. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_spec.rb">Dropdown Test (Git Link)</a>
 2. Ticket <a href="https://trello.com/c/ulrgczoE/10-complete-second-challenge-test-float-menu">Floating Menu (Git Link)</a>
  * b. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Floating Menu (Git Link)</a>
-3. <a href="https://trello.com/c/fRTs1cJG/9-complete-first-challenge-test-context-menu">Context Menu Ticket</a>
+3. Ticket <a href="https://trello.com/c/fRTs1cJG/9-complete-first-challenge-test-context-menu">Context Menu Ticket</a>
  * c. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Context Menu (Git Link)</a>
 # API Tests
  * <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_1/functions/check_component_1_spec.rb">API Tests (Git Link)</a>
