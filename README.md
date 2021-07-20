@@ -27,32 +27,32 @@
 ### <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
 ### <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
 
-# 1. Dockerized
-# Link to Trello:
-# <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Trello Fix and Clean Spec Helper</a>
-# <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Fix and Cleam up Spec Helper</a>
-# <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Trello Dockerfile Clean up and Verify</a>
-# <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Verify Dockerfile</a>
-# <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
-# <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
-# <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Re-write Dockerfile</a>
-# 2. Tests
-## A. Dropdown
-### Link to TrelloL <a href="https://trello.com/c/sOBOhdA9/11-complete-third-challenge-test-dropdown-select">Dropdown test task</a>
-### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_spec.rb">Dropdown Test</a>
-## B. <a href="https://trello.com/c/ulrgczoE/10-complete-second-challenge-test-float-menu">Floating Menu</a>
-### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Floating Menu</a>
-## C. <a href="https://trello.com/c/fRTs1cJG/9-complete-first-challenge-test-context-menu">Context Menu</a>
-### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Context Menu</a>
+#### 1. Dockerized
+#### Link to Trello:
+#### <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Trello Fix and Clean Spec Helper</a>
+#### <a href="https://trello.com/c/xk6L7BXm/6-fix-and-clean-spec-helper">Fix and Cleam up Spec Helper</a>
+#### <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Trello Dockerfile Clean up and Verify</a>
+#### <a href="https://trello.com/c/ZW4inyfZ/7-re-write-dockerfile-clean-up-verify-running">Verify Dockerfile</a>
+#### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Docker File</a>
+#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
+#### <a href="https://github.com/WardropMike/independalite/blob/master/Dockerfile">Re-write Dockerfile</a>
+#### 2. Tests
+### A. Dropdown
+#### Link to TrelloL <a href="https://trello.com/c/sOBOhdA9/11-complete-third-challenge-test-dropdown-select">Dropdown test task</a>
+#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_spec.rb">Dropdown Test</a>
+### B. <a href="https://trello.com/c/ulrgczoE/10-complete-second-challenge-test-float-menu">Floating Menu</a>
+#### Link to Trello
+#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Floating Menu</a>
+#### C. <a href="https://trello.com/c/fRTs1cJG/9-complete-first-challenge-test-context-menu">Context Menu</a>
+#### Link to Trello
+#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Context Menu</a>
 ## D. API Tests
-### Link to Trello
-### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_1/functions/check_component_1_spec.rb">API Tests</a>
-# 3. Tags
-# 4. Run Time arguments
+#### Link to Trello
+#### <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_1/functions/check_component_1_spec.rb">API Tests</a>
+### 3. Tags
+### 4. Run Time arguments
 ### <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
-# 5. Documentation:
+### 5. Documentation:
 ### <a href="https://trello.com/c/0f0sYUkD/12-write-documentation">Write documentation</a>
 # 6. Upcoming updates next steps
 ### <a href="https://trello.com/c/kTai02eE/8-re-write-browser-major-in-dockerfile-works-for-now-break-into-docker-compose-esk-style">Upcoming updates next steps</a>
