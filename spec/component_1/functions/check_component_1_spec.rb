@@ -3,7 +3,7 @@ describe 'As a framework I run tests for APIs', :the_internet => true do
   # Placeholder for JSON obj for resuest
   # Placeholder for JSON obj for assertion
 
-  feature 'Call API to check', :feature => true do
+  feature 'Call API to check', :api => true do
     # setup(placeholder)
     context 'Verify Contract is returned as expected', :context => true do
       scenario 'Call API check response code', :response => true do
