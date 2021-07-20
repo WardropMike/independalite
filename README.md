@@ -8,25 +8,19 @@
 
 ### This was designed to run at these places in the code promotion pipeline:
 Services from framework:
- ![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png"
-    alt="Markdown Monster icon"
-    align="center">
-    style="float: left; margin-right: 10px;" />)
+![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Pipeline_Services.png" alt="Services from framework:" align="center"> style="float: left; margin-right: 10px;" />)
 
 What a framework does ideal goal:
-  ![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png"
-    alt="Markdown Monster icon"
-    align="center">
-    style="float: left; margin-right: 10px;" />)
+![alt text](<img href="https://github.com/WardropMike/independalite/blob/master/proj_docs/Framework_Does_Ideal.png" alt="What a framework does ideal goal:" :align="center"> style="float: left; margin-right: 10px;" />)
 
 # Development tickets
-##0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune
-<a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
-<a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
-<a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
-<a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
-<a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
-<a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
+0. Scaffold Running Framework, 4 - 8 running tests, Folder Struct and tune
+1. <a href="https://github.com/WardropMike/independalite">Framework Codebase</a>
+2. <a href="https://trello.com/c/WJZw7RQE/1-scaffold-running-framework">Setup Framework</a>
+3. <a href="https://trello.com/c/Mk9ODRID/2-write-2-4-running-tests">Tests and test Framework Codebase</a>
+4. <a href="https://trello.com/c/lhN9Eqbu/3-write-2-4-api-tests">Tests and test Framework Codebase Network</a>
+5. <a href="https://trello.com/c/VlPFOYI9/4-folder-structure-organization">Organize Framework Codebase</a>
+6. <a href="https://trello.com/c/jYbMVTI8/5-trim-gem-list-and-utilized-gems">Tune Framework Codebase</a>
 
 ## 1. Dockerized
 Link to Trello:
@@ -55,7 +49,7 @@ Link to Trello:
 ### <a href="https://github.com/WardropMike/independalite/blob/master/spec/spec_helper.rb">Spec Helper</a>
 ### 5. Documentation:
 ### <a href="https://trello.com/c/0f0sYUkD/12-write-documentation">Write documentation</a>
-# 6. Upcoming updates next steps
+6. Upcoming updates next steps
 ### <a href="https://trello.com/c/kTai02eE/8-re-write-browser-major-in-dockerfile-works-for-now-break-into-docker-compose-esk-style">Upcoming updates next steps</a>
 
 Setup Instructions
