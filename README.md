@@ -61,7 +61,7 @@ Make sure you are running a Ruby dev env on macos. This project utilizes ruby 3.
 # Tests
 1. Ticket <a href="https://trello.com/c/sOBOhdA9/11-complete-third-challenge-test-dropdown-select">Dropdown test task Ticket</a>
  * a. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_spec.rb">Dropdown Test (Git Link)</a>
-2. Ticket <a href="https://trello.com/c/ulrgczoE/10-complete-second-challenge-test-float-menu">Floating Menu (Git Link)</a>
+2. Ticket <a href="https://trello.com/c/ulrgczoE/10-complete-second-challenge-test-float-menu">Floating Menu</a>
  * b. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Floating Menu (Git Link)</a>
 3. Ticket <a href="https://trello.com/c/fRTs1cJG/9-complete-first-challenge-test-context-menu">Context Menu Ticket</a>
  * c. <a href="https://github.com/WardropMike/independalite/blob/master/spec/component_2/functions/heroku_challenge_two_spec.rb">Context Menu (Git Link)</a>
