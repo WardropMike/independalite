@@ -11,8 +11,8 @@ module ApiTesting
   end
 
   def check_body(response)
-      response.each do |id|
-        expect(id.member?('username')).to eq(true)
+    response.each do |id|
+      expect(id.member?('username')).to eq(true)
       end
   end
 
