@@ -32,6 +32,6 @@ Capybara.register_driver :headless_docker do |app|
 end
 
 # Capybara Selenium Modes: - Soon ARGV EVAL to run mode
-# Capybara.default_driver = :chrome
-Capybara.default_driver = :headless_docker
+Capybara.default_driver = :chrome
+# Capybara.default_driver = :headless_docker
 # Capybara.default_driver = :chrome_headless_local
