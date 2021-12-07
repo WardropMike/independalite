@@ -1,14 +1,24 @@
-describe 'As a heroku app, I display a menu page', :the_internet => true do
+describe 'As a heroku app, I display an internet page', :the_internet => true do
 
   let(:the_internet_page) { "http://the-internet.herokuapp.com" }
   let(:context) { "Context Menu" }
   let(:context_text) { "You selected a context menu" }
   let(:floating_menu) { "Floating Menu" }
-  feature 'Browsers visit page display elements and data' do
+  feature "Browsers visit 'page(s)', page display elements and data" do
 
+    # before(:all) do
+    #   ofthetests
+    # end
+    context 'testing solutions', :the_solution do
+      scenario 'modulo' do
+        ofthetests
+      end
+    end
     context 'user visits the-internet page and clicks on:', :the_internet => true do
-
       scenario "context menu(s)", :context_menu => true do
+        # odd_numbers(237, 999)
+        # tests
+        # binding.pry
         visit(the_internet_page)
         click_menu_option(context)
         trigger_context_menu
